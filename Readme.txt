@@ -23,6 +23,8 @@ To prevent this, "TinyMCE remove-base-64-image" contains a small piece of javasc
 
 If you manage multiple WordPress sites this plugin will save you time checking if your clients are unwittingly crippling their page downloads.
 
+A [PixelTiger](http://www.pixeltiger.co.uk/program.html) plugin.
+
 == Installation ==
 
 1. Upload the folder `tinymce-remove-base64-image` to the `/wp-content/plugins/` directory
