@@ -32,7 +32,7 @@ function removebase64image_init() {
 }
 
 function add_removebase64image_plugin($plugin_array) {
-	$plugin_array['removebase64image'] = plugins_url().'/tinymce-remove-base64-image/removeBase64/editor_plugin.js';
+	$plugin_array['removebase64image'] = plugins_url().'/tinymce-remove-base-64-image/removeBase64/editor_plugin.js';
 	return $plugin_array;
 }
 
