@@ -52,6 +52,9 @@ Only TinyMCE, the default WordPress editor.
 
 == Changelog ==
 
+= 1.0.2 =
+Corrected folder name in path.
+
 = 1.0.1 =
 Fixed broken path to editor_plugin.js caused by WP_PLUGIN_URL no longer working in WordPress 3.5.2. Now uses plugins_url(). Also simplified javascript to use setInterval without unnecessary closure.
 
