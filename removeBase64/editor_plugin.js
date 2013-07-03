@@ -13,7 +13,7 @@
 					alert('Sorry, dragging images into the editor is blocked as it will cause your webpages to load slowly, please use the "Add Media" button!');
 				}
 			}
-			setInterval(function(){stripBase64images();},1500);
+			setInterval(stripBase64images,1500);
 		},		
 		getInfo : function() {
 			return {

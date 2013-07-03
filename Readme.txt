@@ -3,7 +3,7 @@ Contributors: LingoJon
 Donate link: http://www.pixeltiger.co.uk/plugins-public.html#donate
 Tags: base64, image, TinyMCE, firefox
 Requires at least: 3.5.1
-Tested up to: 3.5.1
+Tested up to: 3.5.2
 Stable tag: /trunk/
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
@@ -52,7 +52,10 @@ Only TinyMCE, the default WordPress editor.
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.1 =
+Fixed broken path to editor_plugin.js caused by WP_PLUGIN_URL no longer working in WordPress 3.5.2. Now uses plugins_url(). Also simplified javascript to use setInterval without unnecessary closure.
+
+= 1.0.0 =
 First version released.
 
 == Upgrade Notice ==
