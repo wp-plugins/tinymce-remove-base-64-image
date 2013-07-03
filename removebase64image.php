@@ -3,7 +3,7 @@
 Plugin Name: TinyMCE remove-base-64-image
 Plugin URI: http://www.pixeltiger.co.uk/plugins-public.html
 Description: A plugin for removing base64 images dropped into the tinymce editor in Firefox
-Version: 1.0.1
+Version: 1.0.2
 Date: 2013-07-03
 Author: Jon Collier
 Author URI: http://www.pixeltiger.co.uk/
